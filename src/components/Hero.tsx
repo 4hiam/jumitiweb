@@ -70,15 +70,10 @@ export function Hero() {
             
             <div className="bg-white p-4 md:p-6 rounded-[40px] shadow-2xl relative z-10 border border-gray-100 transform transition-transform group-hover:-rotate-1 duration-500">
               <div className="aspect-[4/5] rounded-[28px] overflow-hidden relative mb-6">
-                <img 
-                  src="/judith_profile.png" 
-                  alt="Judith Tito" 
-                  className="w-full h-full object-cover"
-                  referrerPolicy="no-referrer"
-                  onError={(e) => {
-                    const img = e.target as HTMLImageElement;
-                    img.src = "https://images.unsplash.com/photo-1544717297-fa20f3ee210a?auto=format&fit=crop&q=80&w=800";
-                  }}
+                <img
+                  src={`${import.meta.env.BASE_URL}judith_profile.png`}
+                  alt="Judith Tito"
+                  className="w-full h-full object-cover object-top"
                 />
                 {/* Overlay gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
