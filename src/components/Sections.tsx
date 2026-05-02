@@ -14,7 +14,13 @@ export function Experience() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {PROFILE_DATA.experience.map((exp, index) => (
-            <Card key={`exp-${index}`} title={exp.title} delay={index * 0.1}>
+            <Card
+              key={`exp-${index}`}
+              title={exp.title}
+              delay={index * 0.1}
+              image={index === 0 ? "/Gemini_Generated_Image_nmw2dlnmw2dlnmw2.png" : undefined}
+              imageAlt={index === 0 ? "Judith Tito en el aula" : undefined}
+            >
               {exp.description}
             </Card>
           ))}
