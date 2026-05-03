@@ -2,7 +2,7 @@ export const PROFILE_DATA = {
   name: "Judith Tito",
   title: "Psicopedagoga & Prof. de Educación Especial",
   specialization: "Especialista en Inclusión y Neurodiversidad",
-  aboutMe: "Soy una profesional comprometida con la educación integral y equitativa. Actualmente, curso el 4to año de Psicopedagogía en el ISDM y cuento con el título de Profesora de Educación Especial con orientación en Discapacidad Intelectual.",
+  aboutMe: "Soy una profesional comprometida con la educación inclusiva y equitativa. Actualmente, curso el 4to año de Psicopedagogía en el ISDM y cuento con el título de Profesora de Educación Especial con orientación en Discapacidad Intelectual.",
   experience: [
     {
       title: "Docencia Especializada",
